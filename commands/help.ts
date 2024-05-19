@@ -8,9 +8,9 @@ export default {
     let commands = bot.slashCommandsMap;
 
     let helpEmbed = new EmbedBuilder()
-      .setTitle(i18n.__mf("help.embedTitle", { botname: interaction.client.user!.username }))
-      .setDescription(i18n.__("help.embedDescription"))
-      .setColor("#F8AA2A");
+      .setTitle("help")
+      .setDescription("Commands")
+      .setColor("#FFFFFF");
 
     commands.forEach((cmd) => {
       helpEmbed.addFields({

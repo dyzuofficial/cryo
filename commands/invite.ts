@@ -16,7 +16,7 @@ export default {
     // return interaction with embed and button to invite the bot
     const actionRow = new ActionRowBuilder<ButtonBuilder>().addComponents(
       new ButtonBuilder()
-        .setLabel(i18n.__mf("Invite"))
+        .setLabel("invite cryo to your server.")
         .setStyle(ButtonStyle.Link)
         .setURL(
           `https://discord.com/api/oauth2/authorize?client_id=${
