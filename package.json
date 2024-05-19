@@ -1,13 +1,12 @@
 {
-  "name": "evobot",
-  "version": "2.9.0",
-  "description": "Discord music bot built with discord.js",
+  "name": "cryo",
+  "version": "0.0.1ALPHA",
+  "description": "all in one discord bot",
   "main": "index.ts",
-  "author": "Erit Islami <eritislami@gmail.com>",
+  "author": "dyzu",
   "private": true,
-  "homepage": "https://github.com/eritislami/evobot",
-  "repository": "github:eritislami/evobot",
-  "bugs": "https://github.com/eritislami/evobot/issues",
+  "homepage": "github:dyzuofficial/cryo",
+  "repository": "github:dyzuofficial/cryo",
   "engines": {
     "node": ">=16.11.0"
   },
